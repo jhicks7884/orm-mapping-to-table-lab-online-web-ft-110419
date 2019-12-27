@@ -4,8 +4,7 @@ attr_reader :id
 def initialize(name, album,)
   @name = name
   @grade = grade
-  @id = id
-
+  #@id = id
 end
   # Remember, you can access your database connection anywhere in this class
   #  with DB[:conn]
